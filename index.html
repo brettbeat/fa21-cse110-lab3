@@ -1,76 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
         <title>Bill Splitter Meeting Notes</title>
         <link rel="icon" href="https://lh3.googleusercontent.com/proxy/jOdZcDsrPMPcuLQyX5wUEEWCROqhPyP5buekGNogmd-G9gF-uKuh4rdS6ZvIcL589ZKh96TVFjeVoizfPuGewbuJLQKHAwLwnwrkTLWvNXRL">
         <meta name="description" content="Meeting notes for Bill Splitter app">
+        <link rel="stylesheet" href="lab3style.css">
     </head>
     <body>
-        <header></header>
+        <header>
             <h1>Bill Splitter First Meeting</h1>
             <h3>Introductions and Brainstorming</h3>
-            <h4>October 1st, 2021</h4>
+            <h3>October 1st, 2021</h3>
+        </header>
         <hr>
         <main></main>
-            <section>
-                <h2>Housekeeping Items</h2>
-                <h4>Topics include:</h4>
-                <nav>
-                    <ol>
-                        <li><a href="#introductions">Introductions</a></li>
-                        <li><a href="#foundational-ideas">Foundational Ideas</a></li>
-                    </ol>
-                </nav>
-                <h4>Attendance</h4>
-                    <ul>
-                        <li>Brett</li>
-                        <li>Tterb</li>
-                        <li>Rettb</li>
-                        <li>Erbtt</li>
-                    </ul>
-                <p>Note: Rebtt was <em>not</em> present today</p>
+            <h2>Housekeeping Items</h2>
+            <section class="housekeeping">
+                <div class="div2">
+                    <div style="grid-column: 1">
+                        <h4>Topics include:</h4>
+                        <nav>
+                            <ol>
+                                <li><a id="intro" href="#introductions">Introductions</a></li>
+                                <li><a id="intro" href="#foundational-ideas">Foundational Ideas</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div style="grid-row;: 1">
+                        <h4>Attendance:</h4>
+                            <ul>
+                                <li>Brett</li>
+                                <li>Tterb</li>
+                                <li>Rettb</li>
+                                <li>Erbtt</li>
+                            </ul>
+                        <p>Note: Rebtt was <em>not</em> present today</p>
+                    </div>
+                </div>
             </section>
             <hr>
             <section>
                 <h2>Meeting Content</h2>
                 <h3>Unfinished Business</h3>
-                    <h4 id="introductions">Introductions:</h4>
-                        <p> <b>Brett:</b> Hey guys my name is Brett and I love running!</p>
-                        <p> <b>Tterb:</b> Hey guys my name is Tterb and I love coffee! My favorite coffee shop is located at: <br>
+                    <h4 id="introductions">Introductions:</h4> 
+                    <p> 
+                        <b>Brett:</b> Hey guys my name is Brett and I love running! <br>
+                        <b>Tterb:</b> Hey guys my name is Tterb and I love coffee! My favorite coffee shop is located at: <br>
+                        <p>
                             Bird Rock Coffee Roasters <br>
                             5627 La Jolla Blvd <br>
                             La Jolla, California 92037 <br>
                         </p>
+                    </p>
                 <h3>New Business</h3>
-                    <h4 id="foundational-ideas">Foundational Ideas</h4>
-                        <p> Brett: 
-                            <i> In order for this app to work, it must fulfill
-                            two requirements: </i>
-                        </p>
-                            <ol>
-                                <li> It <strong>accurately</strong> splits a bill amongst a group of people, factoring
-                                    in details such as tax and tip.
-                                </li>
-                                <li> It looks <strong>pretty</strong> </li> 
-                            </ol>
-                        <p> 
-                            Everyone agreed <br>
-                            Pictured is a diagram of Brett's thought process:
-                        </p>
-                        <img src="https://d1wfu1xu79s6d2.cloudfront.net/wp-content/uploads/2014/02/LR4-fig-1-Accurate-results-are-achieved-by-improving-both-precision-and-trueness.png" 
-                        alt="improving trueness + improving precision = improving accuracy"
-                        width="200">
-
-                        <p>Lastly, Brett showed a video to give everyone a basic idea of what Software Engineering is: <br>
-                            <video controls width="250">
-                                <source src="./yt5s.com-What-is-Software-Engineering.mp4"
-                                        type="video/mp4">
-                            </video> <br>
-                            
-                            For people who prefer audio, here is the audio version: <br>
-                            <audio controls src="yt5s.com-What-is-Software-Engineering.mp3"></audio> <br>
-                        </p>
+                    <h4 id="foundational-ideas">Foundational Ideas:</h4>
+                    <div class="div">
+                            <div style="order: 1">
+                                <p> Brett: 
+                                    <i> In order for this app to work, it must fulfill
+                                    two requirements: </i>
+                                
+                                    <ol>
+                                        <li> It <strong>accurately</strong> splits a bill amongst a group of people, factoring
+                                            in details such as tax and tip.
+                                        </li>
+                                        <li> It looks <strong>pretty</strong> </li> 
+                                    </ol>
+                                </p>
+                            </div>
+                            <div style="order 3">
+                                <p> 
+                                    Everyone agreed <br>
+                                    Pictured is a diagram of Brett's thought process:
+                                </p>
+                                <img src="https://d1wfu1xu79s6d2.cloudfront.net/wp-content/uploads/2014/02/LR4-fig-1-Accurate-results-are-achieved-by-improving-both-precision-and-trueness.png" 
+                                alt="improving trueness + improving precision = improving accuracy"
+                                width="200">
+                                <p>Picture</p>
+                            </div>
+                            <div style="order: 2">
+                                <p>Lastly, Brett showed a video to give everyone a basic idea of what Software Engineering is: <br>
+                                    <video controls width="250">
+                                        <source src="./yt5s.com-What-is-Software-Engineering.mp4"
+                                                type="video/mp4">
+                                    </video> <br>
+                                    
+                                    For people who prefer audio, here is the audio version: <br>
+                                    <audio controls src="yt5s.com-What-is-Software-Engineering.mp3"></audio> <br>
+                                </p>
+                            </div>
+                    </div>
             </section>
+            <hr>
             <section>
                 <h2>Closing</h2>
                 <details>
@@ -100,7 +124,7 @@
                         <input type="text" name="SSN" id="SSN" required>
                     </div> <br>
 
-                    <p>Choose your Favorite Fruits:</p>
+                    <p class="team-survey">Choose your Favorite Fruits:</p>
                     <div class="team-survey">
                         <input type="checkbox" name="banana" id="banana">
                         <label for="banana">Banana</label>
@@ -119,28 +143,34 @@
                         <label for="red">Red</label>
                     </fieldset> <br>
                     
-                    <label for="star-wars-movies">Choose your favorite Star Wars Movie:</label>
-                    <input list="star-wars" id="star-wars-movies" name="star-wars-movies" />
-                    <datalist id="star-wars">
-                        <option value="A New Hope">
-                        <option value="The Empire Strikes Back">
-                        <option value="Return of the Jedi">
-                        <option value="The Phantom Menace">
-                        <option value="Attack of the Clones">
-                        <option value="Revenge of the Sith">
-                    </datalist> <br>
+                    <div class="team-survey">
+                        <label for="star-wars-movies">Choose your favorite Star Wars Movie:</label>
+                        <input list="star-wars" id="star-wars-movies" name="star-wars-movies" />
+                        <datalist id="star-wars">
+                            <option value="A New Hope">
+                            <option value="The Empire Strikes Back">
+                            <option value="Return of the Jedi">
+                            <option value="The Phantom Menace">
+                            <option value="Attack of the Clones">
+                            <option value="Revenge of the Sith">
+                        </datalist> <br>
+                    </div>
 
-                    <label for="dog-vs-cat">Dogs or Cats?</label>
-                    <select name="pets" id="dog-vs-cat">
-                        <option value="">--Please choose an option--</option>
-                        <option value="dog">Dog</option>
-                        <option value="cat">Cat</option>
-                    </select> <br>
+                    <div class="team-survey">
+                        <label for="dog-vs-cat">Dogs or Cats?</label>
+                        <select name="pets" id="dog-vs-cat">
+                            <option value="">--Please choose an option--</option>
+                            <option value="dog">Dog</option>
+                            <option value="cat">Cat</option>
+                        </select> <br>
+                    </div>
 
-                    <label for="feedback">How can we improve this survey?</label>
-                    <textarea name="feedback" id="feedback" cols="57" rows="5"></textarea> <br>
+                    <div class="team-survey">
+                        <label for="feedback">How can we improve this survey?</label> <br>
+                        <textarea  name="feedback" id="feedback" cols="57" rows="5"></textarea> <br>
+                    </div>
 
-                    <button class="team-survey" type="button">
+                    <button class="team-survey" id="buttons" type="button">
                         Submit
                     </button>
                 </form>
