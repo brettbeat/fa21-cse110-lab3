@@ -1,0 +1,111 @@
+@media screen and (max-width: 400px)
+{
+    * {
+        display: none;
+    }
+}
+h1 {
+    font-family: 'Akronim', cursive;
+    text-decoration: underline;
+    height: 0.5in;
+    max-width: 100in;
+    max-height: 100in;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2cm;
+    color: hsl(120, 100%, 20%);
+}
+h3 {
+    position: static;
+    color: #084b02;
+}
+h4 {
+    color: mediumseagreen;
+    position: relative;
+    left: 0.5cm;
+}
+ul {
+    padding: 0.1mm 0.1mm 0.1mm 20mm;
+}
+p, ol{
+    color: mediumseagreen;
+    position: relative;
+    left: 1cm;
+    width: 5in;
+}
+section div {
+    background-color: ghostwhite;
+}
+p > i {
+    padding-left: 5mm;
+}
+img + p {
+    font-weight: bold;
+}
+img ~ p {
+    color: red;
+}
+img {
+    order: 2;
+}
+audio
+{
+    order: 1;
+}
+header {
+    border-style: dotted;
+    border-color: red;
+    border-width: 0.2em;
+    text-align: center;
+    margin-top: 0.5in;
+    margin-left: 1mm;
+    margin-bottom: 2cm;
+    color:#084b02;
+}
+.housekeeping {
+    border-style: groove;
+    border-radius: 0.5ex;
+    border-width: 0.5rem;
+    color: hsl(120, 100%, 20%);
+    margin-bottom: 2cm;
+    margin-left: 1mm;
+    margin-right: 5cm;
+}
+.team-survey { 
+    margin: auto auto auto 2mm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.1cm;
+    padding-left: 0.1cm;
+    padding-right: 0.1cm;
+    background-color: rgba(21, 22, 21, 0);
+}
+form[class] {
+    color: red;
+}
+div.team-survey {
+    color: green;
+}
+.div {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 8cm;
+    align-content: center;
+}
+#blue {
+    display: none;
+}
+#star-wars {
+    display: block;
+}
+#feedback:hover {
+    background-color: blanchedalmond;
+}
+#intro:active{
+    background-color: seagreen;
+}
